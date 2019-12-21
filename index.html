@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Drop Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="controls">
+    <h4>Controls</h4>
+    <hr>
+    <div>
+      <label for="username">Username</label>
+      <input id="username" name="username" placeholder="mynameisinfi" />
+      <br>
+      <label for="command">Command</label>
+      <input id="command" name="command" placeholder="!drop (me|url)" />
+      <br>
+      <button id="drop">Drop</button>
+      <button id="clear">Clear LB</button>
+    </div>
+  </section>
+  <section class="rcontrols" id="rcontrols">
+    <h4>Attach to Twitch chat</h4>
+    <button id="hide">(Hide)</button>
+    <hr>
+    <div>
+      <label for="twitch">Twitch Name</label>
+      <input id="twitch" name="twitch" placeholder="mynameisinfi" />
+      <br>
+      <button id="attach">Attach</button>
+    </div>
+  </section>
+  <div class="leader-board">
+    <h4>Leader Board</h4>
+    <div class="scores"></div>
+  </div>
+  <img class="target" src="images/grass-target.png" />
+  <script src="lib/tmi.min.js"></script>
+  <script src="lib/twemoji-parser.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

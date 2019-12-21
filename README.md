@@ -1,8 +1,9 @@
-# SeedlingDrop
+# DropGame
 
-A Coding Garden themed twitch overlay drop game. Type `!drop [emote | emoji | me]` in the chat to play.
+A clientside, standalone version of Coding Garden's **SeedlingDrop**.
 
->Original PenguinDrop game by [Instafluff](https://www.twitch.tv/instafluff). See the original code [here](https://github.com/instafluff/PenguinDrop).
+> Modified original SeedlingDrop game by the [Coding Garden with CJ](https://coding.garden). Code: [CodingGarden/SeedlingDrop](https://github.com/CodingGarden/SeedlingDrop)
+> Original PenguinDrop game by [Instafluff](https://www.twitch.tv/instafluff). See the original code [here](https://github.com/instafluff/PenguinDrop).
 
 ## TODO
 
@@ -12,7 +13,8 @@ A Coding Garden themed twitch overlay drop game. Type `!drop [emote | emoji | me
 
 ## Credits
 
->Original PenguinDrop game by [Instafluff](https://www.twitch.tv/instafluff). See the original code [here](https://github.com/instafluff/PenguinDrop).
+> Modified original SeedlingDrop game by the [Coding Garden with CJ](https://coding.garden). Code: [CodingGarden/SeedlingDrop](https://github.com/CodingGarden/SeedlingDrop)
+> Original PenguinDrop game by [Instafluff](https://www.twitch.tv/instafluff). See the original code [here](https://github.com/instafluff/PenguinDrop).
 
 ### Images
 
